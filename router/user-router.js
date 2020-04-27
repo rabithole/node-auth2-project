@@ -1,7 +1,7 @@
 const router = require("express").Router();
 
 // The below middleware was added server.js file. 
-// const restricted = require('../auth/restricted-middleware.js');
+const restricted = require('../auth/restricted-middleware.js');
 
 const Users = require("./user-model.js");
 

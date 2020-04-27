@@ -19,6 +19,6 @@ module.exports = (req, res, next) => {
         res.status(500).json({ message: 'Ran into an unexpected error' });
       });
   } else {
-    res.status(400).json({ message: 'No credentials provided' });
+    res.status(400).json({ message: 'No credentials provided, dude!' });
   }
 };
